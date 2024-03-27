@@ -1,0 +1,19 @@
+    .grid-container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr); /* Two rows */
+        grid-template-columns: repeat(3, 1fr); /* Three columns */
+        gap: 10px;
+        grid-template-areas: 
+        "area1 area2 area3"
+        "area4 area5 area6"
+        "area7 area8 area8";
+    }
+
+    .grid-item-1 { grid-area: area1; }
+    .grid-item-2 { grid-area: area2; }
+    .grid-item-3 { grid-area: area3; }
+    .grid-item-4 { grid-area: area4; }
+    .grid-item-5 { grid-area: area5; }
+    .grid-item-6 { grid-area: area6; }
+    .grid-item-7 { grid-area: area7; }
+    .grid-item-summary {grid-area: area8}

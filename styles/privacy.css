@@ -1,0 +1,216 @@
+
+
+:root{
+    --primary-color: #17224d; /* Navy */
+    --secondary-color: #f5fafa; /* Whiteish */
+    --accent-color: #00c8ff; /* Turqoise */
+    --text-color: black; /* Whiteish */
+    --icon-color: #0073ff; /* Bluesih */
+    --link-color: black; /* Black */
+}   
+
+/* First Font Family */
+@font-face {
+    font-family:montserrat-regular;
+    src: url(/assets/fonts/Montserrat-Regular.ttf);
+}
+
+/* Second Font Family */
+@font-face {
+    font-family: barlow-condensed;
+    src: url(assets/fonts/BarlowCondensed-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: barlow-regular;
+    src: url(assets/fonts/Barlow-Regular.ttf);
+}
+
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: var(--secondary-color);
+}
+
+.privacy-statement{
+    margin-top: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+@media only screen and (min-width: 0em) {
+    header {
+        background-color: var(--secondary-color);
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .main-navigation {
+        display: none;
+    }
+
+    .brand-logo {
+        margin-left: 10%;
+    }
+
+    .mobile-navigation {
+        margin-right: 5%;
+    }
+
+    .menu-toggle {
+        cursor: pointer;
+        padding: 18px;
+    }
+
+    .bar {
+        width: 25px;
+        height: 3px;
+        background-color: var(--link-color);
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    .mobile-nav {
+        display: none; /* Initially hidden on smaller screens */
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    li {
+        padding: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+
+        /* Responsive styles */
+        .menu-toggle {
+            display: block;
+        }
+    
+        .mobile-nav {
+            position: absolute;
+            left: 0;
+            background-color: #333;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 20em;
+        }
+    
+        .mobile-nav ul :hover {
+            background-color: var(--primary-color);
+        }
+    
+        .mobile-nav.active {
+            display: flex;
+        }
+
+        
+    /* footer */
+    /* footer */
+    .footer{
+        color: var(--primary-color);
+        text-align: center;
+        background-color: var(--secondary-color);
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+
+    .bottom-page-links{
+        text-align: center;
+        
+    }
+
+
+    .bottom-page-links a {
+        text-decoration: none;
+        color: var(--primary-color);
+        font-size: 14px;
+        margin: 10px;
+        
+    }
+
+
+    .ending{
+        margin: 0;
+        padding: 0;
+    }
+    }
+@media only screen and (min-width: 48em) {
+
+    .brand-logo {
+        margin-left: 5em;
+    }
+
+    .mobile-navigation {
+        margin-right:5em;
+    }
+
+    .privacy-statement{
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+
+    
+
+}
+
+/* SMALL DESKTOP */
+@media only screen and (min-width: 64em) {
+    /* Styles for small desktops go here */
+
+    .mobile-navigation {
+        display: none;
+
+    }
+
+    .main-navigation {
+        display: flex;
+        color: #333; /* Add your color styling */
+        margin-right: 10em;
+    }
+
+    .main-nav ul{
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+
+    }
+
+    .main-nav li  a{
+        font-family: barlow-regular;
+        color: #17224d;
+        size: 18px;
+    }
+
+    .privacy-statement{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+}
+
