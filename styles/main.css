@@ -951,6 +951,10 @@ body{
     #form-inputs {
         padding-left: 5em;
     }
+    #section1 {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
 
    
 
@@ -1030,9 +1034,14 @@ body{
         
     }
 
+    .grid-item {
+        height: 32em;
+    }
+
+
     #section1 {
-        margin-left: 14em;
-        margin-right: 14em;
+        margin-left: 10em;
+        margin-right: 10em;
     }
 
     .membership-paragraph {
