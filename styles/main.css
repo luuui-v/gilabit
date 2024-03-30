@@ -248,18 +248,17 @@ body{
     }
 
     .grid-item {
-        border: 2px solid;
         border-radius: 24px;
         background-color: var(--secondary-color);
-        padding: 24px;
         margin-top: 0px;
         margin-bottom: 0px;
         text-align: left;
         height: 25em;
+        padding: 25px;
     }
 
     .grid-item-summary {
-        padding: 24px;
+        padding: 20px;
         font-size: 18px;
         color: var(--secondary-color);
         display: flex;
@@ -280,7 +279,7 @@ body{
     }
 
     .grid-item p {
-        font-size: 18px;
+        font-size: 16px;
         font-family: regular;
     }
 
@@ -486,6 +485,7 @@ body{
         height: 40em;
         border-radius: 20px;
         margin-top: 4em;
+        margin-bottom: 4em;
     }
 
  .table-row-1 {
@@ -500,7 +500,7 @@ body{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-family: bold-1;
-    font-size: 20px;
+    font-size: 18px;
  }
 
  .table-row-2 {
@@ -511,6 +511,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
     
  }
 
@@ -523,6 +524,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-4 {
@@ -533,6 +535,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
  
  .table-row-5 {
@@ -544,6 +547,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-6 {
@@ -554,6 +558,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-7 {
@@ -565,6 +570,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-8 {
@@ -575,6 +581,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-9 {
@@ -586,6 +593,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-10 {
@@ -596,6 +604,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-11 {
@@ -607,6 +616,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-12 {
@@ -617,6 +627,7 @@ body{
     height:5em;
     align-items: center;
     font-family:regular;
+    font-size: 15px;
  }
 
  .table-row-13 {
@@ -629,6 +640,7 @@ body{
     align-items: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    font-size: 15px;
  }
 
 
