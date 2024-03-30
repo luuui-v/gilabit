@@ -948,6 +948,11 @@ body{
         margin-right: 4em;
     }
 
+    #form-inputs {
+        padding-left: 5em;
+    }
+
+   
 
 }
 /* SMALL DESKTOP */
@@ -1032,6 +1037,10 @@ body{
 
     .membership-paragraph {
         text-align: start;
+    }
+
+    #form-inputs {
+        padding-left: 7em;
     }
 
    
