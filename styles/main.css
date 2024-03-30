@@ -1052,6 +1052,22 @@ body{
         padding-left: 7em;
     }
 
+    .contact-container {
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
+    .contact-form {
+        margin-left: 10em;
+        margin-right: 10em;
+        
+    }
+
+    .faq-grid-container {
+        margin-left: 10em;
+        margin-right: 10em;
+    }
+
    
     
 }
