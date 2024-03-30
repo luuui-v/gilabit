@@ -332,7 +332,7 @@ body{
     .pricing-container{
         padding: 32px;
     }
-
+s
     .pricing-summary{
         font-family: regular;
     }
@@ -345,6 +345,7 @@ body{
         justify-content: center;
         text-align: center;
         font-family: bold-1;
+        margin-bottom: 6em;
     }
 
 
