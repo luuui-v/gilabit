@@ -332,7 +332,7 @@ body{
     .pricing-container{
         padding: 0px;
         margin-top: 10em;
-        margin-bottom: 10em;
+        margin-bottom: 16em;
     }
 s
     .pricing-summary{
@@ -347,7 +347,7 @@ s
         justify-content: center;
         text-align: center;
         font-family: bold-1;
-        margin-bottom: 6em;
+        margin-bottom: 8em;
     }
 
 
@@ -484,12 +484,12 @@ s
     .table-grid {
         display: flex;
         flex-direction: column;
-        background-color: rgb(199, 199, 199);
         justify-content:space-evenly;
         height: 40em;
         border-radius: 20px;
         margin-top: 8em;
         margin-bottom: 6em;
+        background-color: rgb(199, 199, 199);
     }
 
  .table-row-1 {
@@ -508,6 +508,7 @@ s
  }
 
  .table-row-2 {
+    background-color: rgb(199, 199, 199);
     display: grid;
     grid-template-columns: 2fr repeat(3, 1fr);
     grid-template-areas: 
@@ -632,6 +633,7 @@ s
     align-items: center;
     font-family:regular;
     font-size: 15px;
+    background-color: rgb(199, 199, 199);
  }
 
  .table-row-13 {
