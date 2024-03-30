@@ -320,7 +320,7 @@ body{
         justify-content: center;
         text-align: center;
         background-color: var(--secondary-color);
-        font-size: 18px;
+        
         
     }
 
@@ -330,7 +330,9 @@ body{
     }
 
     .pricing-container{
-        padding: 32px;
+        padding: 0px;
+        margin-top: 10em;
+        margin-bottom: 10em;
     }
 s
     .pricing-summary{
@@ -397,8 +399,7 @@ s
 
     #section1 {
         background-color: var(--secondary-color);
-        margin-bottom: 2em;
-        margin-top:2em;
+    
     }
 
     #section2 {
