@@ -11,20 +11,28 @@
 
 /* First Font Family */
 @font-face {
-    font-family:montserrat-regular;
-    src: url(/assets/fonts/Montserrat-Regular.ttf);
+    font-family: bold-italic;
+    src: url(/assets/fonts/PlayfairDisplay-BoldItalic.ttf);
 }
 
 /* Second Font Family */
 @font-face {
-    font-family: barlow-condensed;
-    src: url(assets/fonts/BarlowCondensed-SemiBold.ttf);
+    font-family: regular;
+    src: url(/assets/fonts/PlayfairDisplay-Regular.ttf);
 }
 
+/* Third Font Family */
 @font-face {
-    font-family: barlow-regular;
-    src: url(assets/fonts/Barlow-Regular.ttf);
+    font-family: bold-1;
+    src: url(/assets/fonts/PlayfairDisplay-Bold.ttf);
 }
+
+/* Fourth Font Family */
+@font-face {
+    font-family: extra-bold;
+    src: url(/assets/fonts/PlayfairDisplay-ExtraBold.ttf);
+}
+
 
 
 
@@ -94,6 +102,8 @@ body{
         z-index: 1000;
         width: 100%;
         height: 100%;
+        font-family: bold-1;
+        font-size: 20px;
     }
 
     ul {
@@ -178,7 +188,7 @@ body{
         text-align: left;
         margin-top: 20px;
         margin-bottom: 40px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: bold-1;
         font-size: 34px;
 
     }
@@ -195,7 +205,7 @@ body{
         border: none;
         border-radius: 20px;
         margin-top: 2em;
-        font-family: barlow-condensed;
+        font-family: extra-bold;
         font-size: 20px;
 
     }
@@ -219,13 +229,13 @@ body{
     .service-h1{
         color: var(--accent-color);
         font-size: 40px;
-        font-family: barlow-condensed;
+        font-family: extra-bold;
     }
 
     .service-p{
         color: var(--secondary-color);
         font-size: 40px;
-        font-family:montserrat-regular;
+        font-family: regular;
         
     }
 
@@ -251,12 +261,12 @@ body{
     .grid-item-summary {
         padding: 24px;
         font-size: 18px;
-        font-family: montserrat-regular;
         color: var(--secondary-color);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        font-family: regular;
 
     }
 
@@ -266,12 +276,12 @@ body{
 
     .grid-item h3 {
         font-size: 24px;
-        font-family: barlow-condensed;
+        font-family: bold-1;
     }
 
     .grid-item p {
         font-size: 18px;
-        font-family:montserrat-regular;
+        font-family: regular;
     }
 
     .services-button {
@@ -282,7 +292,7 @@ body{
         border: none;
         border-radius: 20px;
         margin-top: 2em;
-        font-family: barlow-condensed;
+        font-family: bold-1;
         font-size: 20px;
     }
 
@@ -300,7 +310,7 @@ body{
     .pricing-title {
         color: black;
         font-size: 40px;
-        font-family: barlow-condensed;
+        font-family: extra-bold;
     }
     .piggybank{
         max-width: 100%;
@@ -316,7 +326,7 @@ body{
     }
 
     .pricing-title{
-        font-family: barlow-condensed;
+        font-family: extra-bold;
         font-size: 40px;
     }
 
@@ -325,7 +335,7 @@ body{
     }
 
     .pricing-summary{
-        font-family: montserrat-regular;
+        font-family: regular;
     }
 
 
@@ -335,14 +345,14 @@ body{
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        font-family: barlow-condensed;
+        font-family: bold-1;
     }
 
 
 
     .pricing-tiers p {
 
-        font-family:montserrat-regular;
+        font-family:regular;
     }
 
     .slider-container {
@@ -400,7 +410,7 @@ body{
         color: white;
         width: 10em;
         height: 2em;
-        font-family: barlow-condensed;
+        font-family: bold-1;
         font-size: 20px;
     }
 
@@ -445,25 +455,25 @@ body{
     }
 
     .membership-title {
-        font-family: barlow-condensed;
+        font-family: extra-bold;
         font-size: 40px;
         color: black;
     }
 
     .membership-contract {
-        font-family: barlow-condensed;
+        font-family: bold-1;
         font-size: 25px;
     }
     .membership-summary {
-        font-family: montserrat-regular;
+        font-family: regular;
     }
 
     .benefit-title {
-        font-family: barlow-condensed;
+        font-family: bold-1;
     }
 
     .membership-paragraph {
-        font-family: montserrat-regular;
+        font-family: regular;
     }
 
 
@@ -489,7 +499,7 @@ body{
     align-items: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    font-family: barlow-condensed;
+    font-family: bold-1;
     font-size: 20px;
  }
 
@@ -500,7 +510,7 @@ body{
     "cell-5 cell-6 cell-7 cell-8";
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
     
  }
 
@@ -512,7 +522,7 @@ body{
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-4 {
@@ -522,7 +532,7 @@ body{
     "cell-13 cell-14 cell-15 cell-16";
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
  
  .table-row-5 {
@@ -533,7 +543,7 @@ body{
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-6 {
@@ -543,7 +553,7 @@ body{
     "cell-21 cell-22 cell-23 cell-24";
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-7 {
@@ -554,7 +564,7 @@ body{
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-8 {
@@ -564,7 +574,7 @@ body{
     "cell-29 cell-30 cell-31 cell-32";
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-9 {
@@ -575,7 +585,7 @@ body{
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-10 {
@@ -585,7 +595,7 @@ body{
     "cell-37 cell-38 cell-39 cell-40";
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-11 {
@@ -596,7 +606,7 @@ body{
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-12 {
@@ -606,7 +616,7 @@ body{
     "cell-45 cell-46 cell-47 cell-48";
     height:5em;
     align-items: center;
-    font-family:montserrat-regular;
+    font-family:regular;
  }
 
  .table-row-13 {
@@ -685,6 +695,8 @@ body{
 
 
     /* contact */
+    /* contact */
+    /* contact */
 
     .contact-section {
         background-color: var(--primary-color);
@@ -701,12 +713,62 @@ body{
         margin-right: 2em;
     }
 
+    #gilabit-form{
+        
+    }
+
+    #form-inputs {
+        background-color: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin: 2em;
+        font-size: 22px;
+        border: none;
+        border-radius: 10px;
+        padding: 1em;
+        font-family:regular;
+    }
+
+    #full-name{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family:regular;
+    }
+    #email-address{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family:regular;
+    }
+    #telephone {
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family:regular;
+    }
+    #request{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        font-family:regular;
+    }
+    #submit-button {
+        background-color: var(--secondary-color);
+        border: none;
+        padding: 1em;
+        border-radius: 10px;
+        font-size: 18px;
+        font-family:extra-bold;
+    }
+
     .contact-container h1 {
         color: var(--accent-color);
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 20px;
         margin-bottom: 15px;
-        font-family: barlow-condensed;
+        font-family: extra-bold;
     }
 
     .lottie-container {
@@ -724,12 +786,15 @@ body{
 
     .faq-container h1{
         color: var(--accent-color);
-        font-size: 50px;
-        font-family: barlow-condensed;
+        font-size: 40px;
+        font-family: bold-1;
         text-align: center;
         
     }
 
+    .faq-title{
+        font-family: bold-1;
+    }
 
     .faq-grid-container {
         display: grid;
@@ -770,8 +835,9 @@ body{
         display: none;
         margin-top: 10px;
         transition: opacity 2s ease;
-        
-        
+        font-family: regular;
+        font-size: 18px;
+
     }
 
     .faq-grid-item.active .dropdown-content {
@@ -794,7 +860,7 @@ body{
     .contact-us{
         color: var(--secondary-color);
         text-align: center;
-        font-family: barlow-condensed;
+        font-family: bold-1;
         font-size: 20px;
     }
 
@@ -818,8 +884,9 @@ body{
     .bottom-page-links a {
         text-decoration: none;
         color: var(--primary-color);
-        font-size: 14px;
+        font-size: 18px;
         margin: 10px;
+        font-family: bold-1;
         
     }
 
@@ -827,6 +894,7 @@ body{
     .ending{
         margin: 0;
         padding: 0;
+        font-family: regular;
     }
 
 

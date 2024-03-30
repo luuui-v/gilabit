@@ -48,7 +48,6 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#pricing">Pricing</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <!--    <li><a href="about">About</a></li>   -->
                 </ul>
             </nav>
         </div>
@@ -105,7 +104,7 @@
 <!-- service -->
 <div class="services-section" id="services">
     <h1 class="service-h1">Our Services</h1>
-    <p class="service-p">Web design & development packages for all different size businesses.</p>
+    <p class="service-p">Web design and development packages for all different size businesses.</p>
 
         <div class="grid-container">
             <grid-item-1>
@@ -387,7 +386,7 @@
                 <div class="membership-benefits">
                     <div class="benefit-4">
                         <img src="/assets/checkmark.png" width="60px" height="60px">
-                        <h1 class="benefit-title">Web Design & Development</h1>
+                        <h1 class="benefit-title">Web Design and Development</h1>
                     </div>
                     <p class="membership-paragraph">Included over 40 hours of design, development, and testing.</p>
                 </div>
@@ -440,8 +439,27 @@
     </div>
 
     <div class="contact-form">
-        <script type="text/javascript" src="https://form.jotform.com/jsform/233020400479041"></script>
+
+        <form id="gilabit-form" name="contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+            <fieldset id="form-inputs">
+              <label for="client-name">Full Name</label>
+              <input type="text" name="name" id="full-name" placeholder="first and last name" required="">
+              <br>
+              <label for="email-address">Email Address</label>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@test.com" required="">
+              <br>
+              <label for="telephone">Telephone Number (Optional)</label>
+              <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555">
+              <br>
+              <label for="user-request">How can we help?</label>
+              <textarea rows="6" name="request" id="request" placeholder="I need a website." required=""></textarea>
+              <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission">
+            </fieldset>
+            <input id="submit-button"type="submit" value="Submit">
+          </form>
+        
     </div>
+    
 
 
 </div>
