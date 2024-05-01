@@ -11,26 +11,14 @@
 
 /* First Font Family */
 @font-face {
-    font-family: bold-italic;
-    src: url(/assets/fonts/PlayfairDisplay-BoldItalic.ttf);
+    font-family: bebas;
+    src: url(/assets/fonts/BebasNeue-Regular.ttf);
 }
 
 /* Second Font Family */
 @font-face {
-    font-family: regular;
-    src: url(/assets/fonts/PlayfairDisplay-Regular.ttf);
-}
-
-/* Third Font Family */
-@font-face {
-    font-family: bold-1;
-    src: url(/assets/fonts/PlayfairDisplay-Bold.ttf);
-}
-
-/* Fourth Font Family */
-@font-face {
-    font-family: extra-bold;
-    src: url(/assets/fonts/PlayfairDisplay-ExtraBold.ttf);
+    font-family: Barlow;
+    src: url(/assets/fonts/BarlowCondensed-Regular.ttf);
 }
 
 
@@ -155,14 +143,13 @@ body{
     /* hero */
 
     .hero{
-        display: block;
-        flex-direction: column;
-        position: relative;
+        display: flex;
         width: 100%;
         height: 37rem;
         background-color: var(--secondary-color);
         justify-content: center;
-        text-align: center;
+        align-items: center;
+        
 
     }
 
@@ -170,26 +157,20 @@ body{
         display: flex;
         flex-direction: column;
         background-color: var(--secondary-color);
-        padding-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 40px;
-        
     }
 
     .hero-child{
-        margin-left: 10%;
-        margin-right: 10%;
-
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .hero-text{
         color: var(--primary-color);
-        text-align: left;
         margin-top: 20px;
         margin-bottom: 40px;
-        font-family: bold-1;
-        font-size: 28px;
+        font-family: bebas;
+        font-size: 47px;
 
     }
 
@@ -205,15 +186,15 @@ body{
         border: none;
         border-radius: 20px;
         margin-top: 2em;
-        font-family: extra-bold;
+        font-family: bebas;
         font-size: 18px;
-
     }
 
     .hero-button:hover {
         background-color: black; 
     }
 
+  
     /* services */
     /* services */
     /* services */
@@ -229,7 +210,7 @@ body{
     .service-h1{
         color: var(--accent-color);
         font-size: 40px;
-        font-family: extra-bold;
+        font-family: bebas;
     }
 
     .service-p{
@@ -291,7 +272,7 @@ body{
         border: none;
         border-radius: 20px;
         margin-top: 2em;
-        font-family: bold-1;
+        font-family: bebas;
         font-size: 20px;
     }
 
@@ -325,7 +306,7 @@ body{
     }
 
     .pricing-title{
-        font-family: extra-bold;
+        font-family: bebas;
         font-size: 40px;
     }
 
@@ -334,9 +315,10 @@ body{
         margin-top: 10em;
         margin-bottom: 16em;
     }
-s
+
     .pricing-summary{
-        font-family: regular;
+        font-size: 24px;
+        font-family: barlow;
     }
 
 
@@ -346,7 +328,8 @@ s
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        font-family: bold-1;
+        font-family: bebas;
+        font-size: 24px;
         margin-bottom: 8em;
     }
 
@@ -354,7 +337,7 @@ s
 
     .pricing-tiers p {
 
-        font-family:regular;
+        font-family:barlow;
     }
 
     .slider-container {
@@ -413,7 +396,7 @@ s
         color: white;
         width: 10em;
         height: 2em;
-        font-family: bold-1;
+        font-family: bebas;
         font-size: 20px;
     }
 
@@ -458,25 +441,27 @@ s
     }
 
     .membership-title {
-        font-family: extra-bold;
+        font-family: bebas;
         font-size: 40px;
         color: black;
     }
 
     .membership-contract {
-        font-family: bold-1;
-        font-size: 25px;
+        font-family: bebas;
+        font-size: 28px;
     }
     .membership-summary {
-        font-family: regular;
+        font-family: barlow;
+        font-size: 24px;
     }
 
     .benefit-title {
-        font-family: bold-1;
+        font-family: bebas;
     }
 
     .membership-paragraph {
-        font-family: regular;
+        font-family: barlow;
+        font-size: 24px;
     }
 
 
@@ -503,8 +488,8 @@ s
     align-items: center;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    font-family: bold-1;
-    font-size: 18px;
+    font-family: bebas;
+    font-size: 20px;
  }
 
  .table-row-2 {
@@ -515,8 +500,8 @@ s
     "cell-5 cell-6 cell-7 cell-8";
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
     
  }
 
@@ -528,8 +513,8 @@ s
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-4 {
@@ -539,8 +524,8 @@ s
     "cell-13 cell-14 cell-15 cell-16";
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
  
  .table-row-5 {
@@ -551,8 +536,8 @@ s
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-6 {
@@ -562,8 +547,8 @@ s
     "cell-21 cell-22 cell-23 cell-24";
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-7 {
@@ -574,8 +559,8 @@ s
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-8 {
@@ -585,8 +570,8 @@ s
     "cell-29 cell-30 cell-31 cell-32";
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-9 {
@@ -597,8 +582,8 @@ s
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-10 {
@@ -608,8 +593,8 @@ s
     "cell-37 cell-38 cell-39 cell-40";
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-11 {
@@ -620,8 +605,8 @@ s
     background-color: rgb(255, 255, 255);
     height:5em;
     align-items: center;
-    font-family:regular;
-    font-size: 15px;
+    font-family:barlow;
+    font-size: 18px;
  }
 
  .table-row-12 {
@@ -632,7 +617,6 @@ s
     height:5em;
     align-items: center;
     font-family:regular;
-    font-size: 15px;
     background-color: rgb(199, 199, 199);
  }
 
@@ -731,9 +715,12 @@ s
         margin-right: 2em;
     }
 
-    #gilabit-form{
-        
+    #kick-off-title {
+        font-family: bebas;
+        font-size: 40px;
+        color: var(--accent-color);
     }
+
 
     #form-inputs {
         background-color: var(--secondary-color);
@@ -777,18 +764,17 @@ s
         border: none;
         padding: 1em;
         border-radius: 10px;
-        font-size: 18px;
-        font-family:extra-bold;
+        font-size: 20px;
+        font-family: bebas;
         color: black;
     }
 
-    .contact-container h1 {
+    #submit-button:hover {
+        background: black;
         color: var(--accent-color);
-        font-size: 40px;
-        margin-top: 20px;
-        margin-bottom: 15px;
-        font-family: extra-bold;
     }
+
+
 
     .lottie-container {
         width: 300px;
@@ -806,13 +792,14 @@ s
     .faq-container h1{
         color: var(--accent-color);
         font-size: 40px;
-        font-family: bold-1;
+        font-family: bebas;
         text-align: center;
         
     }
 
     .faq-title{
-        font-family: bold-1;
+        font-family: barlow;
+        font-size: 23px;
     }
 
     .faq-grid-container {
@@ -824,7 +811,7 @@ s
     .faq-grid-item {
         border: 1px solid #ccc;
         padding: 10px;
-        font-size: 16px;
+        font-size: 20px;
         text-align: center;
         cursor: pointer;
         background-color: var(--secondary-color);
@@ -854,8 +841,8 @@ s
         display: none;
         margin-top: 10px;
         transition: opacity 2s ease;
-        font-family: regular;
-        font-size: 18px;
+        font-family: barlow;
+        font-size: 20px;
 
     }
 
@@ -879,8 +866,8 @@ s
     .contact-us{
         color: var(--secondary-color);
         text-align: center;
-        font-family: bold-1;
-        font-size: 20px;
+        font-family: barlow;
+        font-size: 24px;
     }
 
     /* footer */
@@ -905,7 +892,7 @@ s
         color: var(--primary-color);
         font-size: 18px;
         margin: 10px;
-        font-family: bold-1;
+        font-family: barlow;
         
     }
 
