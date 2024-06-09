@@ -995,15 +995,26 @@ body{
         margin-right: 10em;
     }
 
+  
+
     .main-nav ul{
         display: flex;
         flex-direction: row;
     }
 
     .main-nav li  a{
-        font-family: barlow-regular;
-        color: #17224d;
-        size: 18px;
+        font-family: barlow;
+        color: var(--text-color);
+        font-size: 20px;
+    }
+
+    .main-nav li a:hover {
+        background-color: black;
+        border-radius: 15px;
+        border-color: rgb(0, 0, 0);
+        color: white;
+        border-style: solid;
+        border-width: 10px;
     }
 
 
